@@ -1,6 +1,6 @@
 # Dry Beans EDA — Exploring Turkish Cuisine Through Data
-Dry Beans EDA is an Exploratory Data Analysis project that investigates the physical characteristics of bean varieties used in traditional Turkish cuisine through data visualization and statistical exploration.
-The analysis uses the UCI Dry Bean Dataset within a Jupyter Notebook environment to uncover patterns between **Seker**, **Horoz**, and other bean varieties featured in Turkey's classic *Etli Kuru Fasulye* (White Bean Stew).
+Dry Beans EDA is an Exploratory Data Analysis project that explores the physical characteristics of bean varieties used in traditional Turkish cuisine through data visualization and statistical exploration.
+The analysis uses the UCI Dry Bean Dataset in a Jupyter Notebook to uncover patterns among **Seker**, **Horoz**, and other bean varieties featured in Turkey's classic *Etli Kuru Fasulye* (White Bean Stew).
 
 ## Project Overview
 This repository documents the full exploratory analysis pipeline — from data loading and inspection through feature engineering and visual storytelling. The project was developed alongside a companion Medium article that contextualizes the findings within Turkish culinary traditions.
@@ -30,7 +30,7 @@ The notebook follows a structured EDA pipeline designed to progressively deepen 
 - Builds a correlation matrix to identify relationships between geometric features.
 - Plots scatterplots comparing Major vs. Minor Axis Length across classes.
 - Creates histograms for area distribution between Seker and Horoz beans.
-- Produces violin plots to compare solidity distribution between the two varieties.
+- Produces violin plots to compare the solidity distribution between the two varieties.
 
 ## Data Model
 The UCI Dry Bean Dataset contains 13,611 grain samples across 7 registered bean varieties from Turkey. Features were extracted from grain images using computer vision techniques.
